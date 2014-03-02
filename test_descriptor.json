@@ -1,0 +1,19 @@
+[
+  {
+    "settings": ["master"],
+    "name": "Basic functional tests",
+    "commonlib": "../greeter.js",
+    "config": {
+      "baseUrl": "http://localhost:8666/demo"
+    },
+    "dataprovider": {
+      "test greet": {
+        "group": "smoke",
+        "params": {
+          "page": "$$config.baseUrl$$",
+          "test": "./test-greeter.js"
+        }
+      }
+    }
+  }
+]

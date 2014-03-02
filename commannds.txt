@@ -1,0 +1,8 @@
+
+arrow test-simple.js --page="http://localhost:8666/simple" --report=true --logLevel=DEBUG --driver=selenium
+
+arrow test-simple1.js --page="http://localhost:8666/simple1" --report=true --logLevel=DEBUG --driver=selenium
+
+arrow test-demo.js --page="http://localhost:8666/demo" --report=true --logLevel=DEBUG --driver=selenium
+
+arrow test-greeter.js --lib=../greeter.js --report=true --logLevel=DEBUG --driver=nodejs
